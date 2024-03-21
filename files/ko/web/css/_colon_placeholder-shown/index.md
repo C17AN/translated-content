@@ -50,9 +50,9 @@ input:placeholder-shown {
 
 {{EmbedLiveSample("Basic_example", 200, 80)}}
 
-### 오버플로우되는 텍스트
+### 문자열 넘침
 
-폼 필드가 너무 작으면 플레이스홀더 텍스트가 바람직하지 않은 방식으로 잘릴 수 있습니다. {{cssxref("text-overflow")}} 속성을 사용하여 오버플로우되는 텍스트가 표시되는 방식을 변경할 수 있습니다.
+폼 필드가 너무 작으면 플레이스홀더 텍스트가 바람직하지 않은 방식으로 잘릴 수 있습니다. {{cssxref("text-overflow")}} 속성을 사용하여 넘치는 문자열이 표시되는 방식을 변경할 수 있습니다.
 
 #### HTML
 
@@ -132,6 +132,6 @@ input.studentid:placeholder-shown {
 
 ## See also
 
-- {{CSSxRef("::placeholder")}} 의사 요소는 플레이스홀더 *자체*를 꾸밉니다.
-- 연관된 HTML 요소들: {{HTMLElement("input")}}, {{HTMLElement("textarea")}}
+- {{CSSxRef("::placeholder")}} 의사 요소는 플레이스홀더 자체를 꾸밉니다.
+- 관련된 HTML 요소들: {{HTMLElement("input")}}, {{HTMLElement("textarea")}}
 - [HTML forms](/ko/docs/Learn/Forms)
